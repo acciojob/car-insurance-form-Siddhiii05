@@ -8,13 +8,15 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="post">
 		<label for="name">Name:</label>
 		<input type="text" id="name" required>
-<br>
+		<br>
+		
 		<label for="email">Email:</label>
 		<input type="email" id="email" required>
-<br>
+		<br>
+		
 		<label>Gender:</label>
 		<br>
 		<input type="radio" name="gender" value="Male" required>
@@ -31,7 +33,7 @@
 		</select>
 		<br>
 
-		<label>Car Age:</label>
+		<label for="carage">Car Age:</label>
 		<input type="number" id="carage" required>
 		<br>
 
@@ -40,7 +42,7 @@
 		<br>
 
 		<label for="password">Password:</label>
-		<input type="password" id="password">
+		<input type="password" id="password" required>
 		<br>
 
 		<button type="submit">Submit</button>
